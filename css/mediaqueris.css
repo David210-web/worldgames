@@ -1,0 +1,53 @@
+@media screen and (max-width: 420px) {
+    .titulo{
+        font-size: 2em;
+    }
+
+    .card-title{
+        font-size: 16px !important;
+    }
+
+    .card-text{
+        font-size: 12px;
+        display: none;
+    }
+
+}
+
+/* X-Small devices (portrait phones, less than 576px)*/
+/* No media query for `xs` since this is the default in Bootstrap*/
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {  }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (max-width: 768px) { 
+    #item-1{
+        grid-column: 1/-1;
+        grid-row: 1/2;
+    }
+
+    #item-2{
+        grid-column: 1/-1;
+        grid-row: 2/3;
+    }
+
+    #item-3{
+        grid-column: 1/-1;
+        grid-row: 3/4;
+    }
+
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {  }
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+    .nav-link:hover{
+        border-bottom: 4px solid white;
+    }
+ }
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {  }
